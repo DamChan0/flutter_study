@@ -5,7 +5,7 @@ print(tt.calc())  ;
 TimesFour t4  = TimesFour(13.4443);
 print( t4.calc());
 }
-//method - function
+//method - function cccc
 // override -  우선시하다
 
 class TimesTwo {
