@@ -2,14 +2,13 @@ void main(){
 Employee dongmin = Employee('동민');
 Employee jihee = Employee('지희');
 Employee.building = '에이비씨빌딩';
-Employee.building = null;
+// Employee.building = null;
 dongmin.printNameandBuilding();
 jihee.printNameandBuilding();
-
+Employee.printbuilding();
 }
-
 class Employee{
-  // static 은 instance에 귀속 되자않는다 class 에 귀속됨
+  // static 은 instance에 귀속 되자않는다 class 에 귀속됨 >>
   static String? building;
   final String name;
 
