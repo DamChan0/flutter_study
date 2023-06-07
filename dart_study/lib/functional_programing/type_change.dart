@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_print
+
 void main(){
   List<String> black = ['a','b','c', 'd', 'd'];
 

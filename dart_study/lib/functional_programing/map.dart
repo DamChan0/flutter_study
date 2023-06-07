@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_print
+
 void main(){
   List<String> list = ['a','b','c','d'];
 
