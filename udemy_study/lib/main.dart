@@ -2,7 +2,6 @@
 import 'package:udemy_study/gradient_container.dart';
 import 'package:flutter/material.dart';
 
-
 void main() {
   runApp(const MyApp());
 }
@@ -12,12 +11,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  const MaterialApp(
+    return const MaterialApp(
         home: Scaffold(
-          body: GradientContainer(Color.fromARGB(201, 153, 0, 255),
-              Color.fromARGB(200, 91, 34, 28),
-          "눈아파 씨발"),
-
-        ));
+      body: GradientContainer(
+           Color.fromARGB(201, 153, 0, 255),
+           Color.fromARGB(200, 91, 34, 28), "눈아파 씨발"),
+    ));
   }
 }
